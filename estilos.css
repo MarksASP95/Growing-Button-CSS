@@ -1,0 +1,48 @@
+a{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	border: 1px solid black;
+	border-radius: 4px;
+	width:400px;
+	height: 100px;
+	text-decoration: none;
+	font-family: 'Verdana';
+	text-align: center;
+	background-color: #d8d8d8;
+	transition: all 0.2s ease-in;
+	color:#444;
+	margin:0 auto;
+}
+
+section{
+	height: 100px;
+	width: 400px;
+	margin: 10% auto;
+	font-weight: bold;
+	transition: margin 0.2s ease-in;
+}
+
+p{
+	opacity: 0;
+	width: 400px;
+	margin: 10px auto;
+	font-weight: normal;
+}
+
+a:hover{
+	width:440px;
+	height: 110px;
+	transition: all 0.2s ease-in;
+}
+
+a:hover p{
+	opacity:1;
+	transition: opacity 0.2s ease-in;
+}
+
+a:hover section{
+	margin: 5% auto;
+	transition: margin 0.2s ease-in;
+}
